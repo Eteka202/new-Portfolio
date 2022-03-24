@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    background-color: rgb(72, 225, 236);
+    border-radius: 20px;
+    box-shadow: 5px  5px 5px 5px black; 
+    width: 400px;
+    padding: 20px;
+}
+
+form> input {
+    width: 100%;
+    padding: 15px;
+}
+
+#sd{
+    border-radius: 20px;
+}
+#fn{
+    border-radius: 20px;
+}
+#gn{
+    border-radius: 20px;
+}
+#no{
+    border-radius: 20px;
+}
+#email-id{
+    border-radius: 20px;
+}
+#ps{
+    border-radius: 20px;
+}
+.p{
+    text-align: center;
+}
+
+
+
